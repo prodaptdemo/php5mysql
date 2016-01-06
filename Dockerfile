@@ -1,2 +1,2 @@
-FROM php:5.6-apache123
+FROM php:5.6-apache
 COPY src/ /var/www/html/
