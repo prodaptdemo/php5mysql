@@ -1,4 +1,4 @@
 FROM tutum/apache-php
 COPY src/ /var/www/html/
 COPY start.sh /
-RUN service apache2 start
+RUN /usr/sbin/apache2ctl -D FOREGROUND
