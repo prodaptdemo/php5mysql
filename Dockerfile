@@ -1,5 +1,4 @@
 FROM php:5.6-apache
 COPY src/ /var/www/html/
 COPY start.sh /
-CMD bash -C '/start.sh';'bash'
-
+RUN source /start.sh
