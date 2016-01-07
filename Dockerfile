@@ -1,4 +1,4 @@
-FROM tutum/apache-php
+FROM php:5.6-apache
 COPY src/ /var/www/html/
 COPY start.sh /
 RUN service apache2 start
