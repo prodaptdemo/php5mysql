@@ -1,1 +1,1 @@
-echo 'Hello world! This is master branch!'
+echo 'Hello world! This is master branch master branch!'
