@@ -2,7 +2,7 @@
 $servername = $_ENV['DBIP'];
 $username = $_ENV['DBUSER'];
 $password = $_ENV['DBPASS'];
-$dbname = $_ENV['DBNAME'];
+$dbname = "wordpress";
 
 
 // Create connection
