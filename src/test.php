@@ -1,7 +1,7 @@
 <?php
-$servername = $_ENV['AGINSTANCE2_DOMAINNAME'];
-$username = $_ENV['AGINSTANCE2_DBUSERNAME'];
-$password = $_ENV['AGINSTANCE2_DBPASSWORD'];
+$servername = $_ENV['MYDBINSTANCE_DOMAINNAME'];
+$username = $_ENV['MYDBINSTANCE_DBUSERNAME'];
+$password = $_ENV['MYDBINSTANCE_DBPASSWORD'];
 
 $dbname = "wordpress";
 
