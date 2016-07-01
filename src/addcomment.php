@@ -14,7 +14,7 @@
 		<h2 style="margin:0px;float:left;"> Add Your Comment </h2> 
 	</div>
 	<hr>
-	<form method="POST" action="index.php">
+	<form method="POST" action="test.php">
 		<table>
 			<tr>
 				<td> Name </td>
