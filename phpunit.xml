@@ -1,0 +1,10 @@
+<phpunit bootstrap="src/autoload.php">
+    <testsuites>
+        <testsuite name="Stack tests">
+            <file>tests/StackTest.php</file>
+        </testsuite>
+        <testsuite name="Currency Tests">
+            <file>tests/CurrencyTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
