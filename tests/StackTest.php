@@ -13,7 +13,7 @@ class StackTest extends PHPUnit_Framework_TestCase
     public function testPush(array $stack)
     {
         array_push($stack, 'foo');
-        $this->assertEquals('foo123', $stack[count($stack)-1]);
+        $this->assertEquals('foo', $stack[count($stack)-1]);
         $this->assertNotEmpty($stack);
         return $stack;
     }
@@ -22,7 +22,7 @@ class StackTest extends PHPUnit_Framework_TestCase
      */
     public function testPop(array $stack)
     {
-        $this->assertEquals('foo123', array_pop($stack));
+        $this->assertEquals('foo', array_pop($stack));
         $this->assertEmpty($stack);
     }
 }
