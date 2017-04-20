@@ -1,7 +1,7 @@
 <?php
-$servername = $_ENV['TESWP_DOMAINNAME'];
-$username = $_ENV['TESWP_DBUSERNAME'];
-$password = $_ENV['TESWP_DBPASSWORD'];
+$servername = $_ENV['TESDB_DOMAINNAME'];
+$username = $_ENV['TESDB_DBUSERNAME'];
+$password = $_ENV['TESDB_DBPASSWORD'];
 
 $dbname = "wordpress";
 
